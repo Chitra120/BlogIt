@@ -15,7 +15,7 @@ const Landing = ({ isAuthenticated }) => {
           <h1 className='x-large'>Blogger Community</h1>
           <p className='lead'>
             Showcase your blogs to gather popularity and acknowledgement of your
-            blogs, promote blogging culture! Happy blogging and Enjoy!
+            blogs, promote blogging culture! Happy blogging!
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
