@@ -1,0 +1,5 @@
+{
+    "mongoURI" : "mongodb+srv://chitra:121314@bloggerapp.vgqoy.mongodb.net/BloggerApp?retryWrites=true&w=majority",
+    "jwtSecret": "chitrax27",
+    "githubToken": "3a55e7fce12961e3cb6ed24ab6277d185e42ab19"
+}
