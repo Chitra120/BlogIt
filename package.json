@@ -1,5 +1,5 @@
 {
-  "name": "blogcomm",
+  "name": "BlogIt",
   "version": "1.0.0",
   "description": "A blogging app for blogger community.",
   "main": "server.js",

@@ -1,4 +1,4 @@
-# BlogComm
+# BlogIt
 
 > Bloggers Community
 
@@ -64,11 +64,7 @@ Check in browser on [http://localhost:8080/](http://localhost:8080/)
 
 ### Deploy to Heroku
 
-If you followed the sensible advice above and included `config/default.json` and `config/production.json` in your .gitignore file, then pushing to Heroku will omit your config files from the push.  
-However, Heroku needs these files for a successful build.  
-So how to get them to Heroku without commiting them to GitHub?
-
-What I suggest you do is create a local only branch, lets call it _production_.
+Lets create a local only branch, lets call it _production_.
 
 ```bash
 git checkout -b production
@@ -133,7 +129,7 @@ Chitra Baghel
 
 ### Version
 
-2.0.0
+1.0.0
 
 ### License
 
