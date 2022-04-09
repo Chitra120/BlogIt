@@ -5,23 +5,23 @@ import PropTypes from 'prop-types';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
-    return <Navigate to="/dashboard" />;
+    return <Navigate to='/dashboard' />;
   }
 
   return (
-    <section className="landing">
-      <div className="dark-overlay">
-        <div className="landing-inner">
-          <h1 className="x-large">Blogger Community</h1>
-          <p className="lead">
+    <section className='landing'>
+      <div className='dark-overlay'>
+        <div className='landing-inner'>
+          <h1 className='x-large'>Blogger Community</h1>
+          <p className='lead'>
             Showcase your blogs to gather popularity and acknowledgement of your
-            blogs, promote blogging culture! Happy blogging!
+            blogs, promote blogging culture! Happy blogging and Enjoy!
           </p>
-          <div className="buttons">
-            <Link to="/register" className="btn btn-primary">
+          <div className='buttons'>
+            <Link to='/register' className='btn btn-primary'>
               Sign Up
             </Link>
-            <Link to="/login" className="btn btn-light">
+            <Link to='/login' className='btn btn-light'>
               Login
             </Link>
           </div>
@@ -32,11 +32,11 @@ const Landing = ({ isAuthenticated }) => {
 };
 
 Landing.propTypes = {
-  isAuthenticated: PropTypes.bool
+  isAuthenticated: PropTypes.bool,
 };
 
 const mapStateToProps = (state) => ({
-  isAuthenticated: state.auth.isAuthenticated
+  isAuthenticated: state.auth.isAuthenticated,
 });
 
 export default connect(mapStateToProps)(Landing);
